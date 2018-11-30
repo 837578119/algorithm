@@ -16,7 +16,7 @@ public class Medium_863_AllNodesDistanceKinBinaryTree {
     Medium_863_AllNodesDistanceKinBinaryTree right;
     Medium_863_AllNodesDistanceKinBinaryTree(int x) { val = x; }
 }
-class Solution {
+class Solution1 {
 
     public static Map<Integer, List<Integer>> map = new HashMap<Integer, List<Integer>>() ;
     //构建邻接表
